@@ -2,3 +2,9 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# 个人数据目录：保留文件夹本身（.gitkeep），忽略里面的内容
+错题本/**
+!错题本/.gitkeep
+错题原图/**
+!错题原图/.gitkeep
