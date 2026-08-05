@@ -1,0 +1,282 @@
+{
+  "main": {
+    "id": "8538fb061120aaf4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bb2ea09ef6678de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9faa42919fda211d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "错题本/例1.16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "例1.16"
+            }
+          },
+          {
+            "id": "9d924335fc5811b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "错题本/例1.2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "例1.2"
+            }
+          },
+          {
+            "id": "95756649e4e8a3b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "错题本/例1.18.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "例1.18"
+            }
+          },
+          {
+            "id": "3cdccc8591aec4db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "错题本/例1.21.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "例1.21"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c0d390463eeac4a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4e00ecb9100ab5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d61019f26db50d2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fbe714f09ccf4dc7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4e674285a3a604c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "88a014871c10fe87",
+    "type": "split",
+    "children": [
+      {
+        "id": "559631b5e3a67e53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c150e64ef4a167af",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "错题仪表盘.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "错题仪表盘 的反向链接列表"
+            }
+          },
+          {
+            "id": "63d23ad001808aa0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "错题仪表盘.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "错题仪表盘 的出链列表"
+            }
+          },
+          {
+            "id": "c40067f99b4e3c9b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ff77baf539bdd70e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "c8745da35d48f1ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "错题仪表盘.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "错题仪表盘 的大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "3cdccc8591aec4db",
+  "lastOpenFiles": [
+    "错题原图/31fdcec8277c4eb87d4b957ace5a8f73.jpg",
+    "错题本/例1.18.md",
+    "错题本/例1.21.md",
+    "错题原图/ed2e7ddcc15b0af98462d3f8816f40cb.jpg",
+    "错题本/例1.2.md",
+    "错题原图/ee4c88a2c5488efb98a093a531deddba.jpg",
+    "错题原图/c049cf32a58eabc6c7ef0df3ce2c8a56.jpg",
+    "错题原图/1864589517d02b2d6a3c3471a63e7c8e.jpg",
+    "错题原图/43264ba176751cef00a94f84098b4ca0.jpg",
+    "错题原图/9874efe9699a17cea99adbe0a54d9857.jpg",
+    "错题原图/3f2379dbadeb785a9894e79d1ed7c79b.jpg",
+    "模板/错题模板.md",
+    "错题仪表盘.md",
+    "Obsidian错题管理系统使用指南.md",
+    "错题本/例1.17.md",
+    "错题本/例1.3.md",
+    "错题本/例1.7.md",
+    "错题本/例1.15.md",
+    "错题本/例1.16.md",
+    "试卷/随机组卷.md",
+    "错题本/10.md",
+    "错题原图/Pasted image 20260705215836.png",
+    "错题原图",
+    "模板",
+    "脚本",
+    "错题本",
+    "试卷",
+    "错题原图/Pasted image 20260705214740.png",
+    "错题本/错题仪表盘.md",
+    "错题原图/Pasted image 20260705214532.png",
+    "模板/快速更新掌握程度.md",
+    "脚本/update-mastery.js",
+    "是.md",
+    "错题本/12.md",
+    "错题本/英语",
+    "错题本/物理",
+    "错题本/数学",
+    "错题本/化学",
+    "错题本/523.md",
+    "错题本/20260705-210629.md",
+    "错题本/20260705-210402.md",
+    "错题本/20260705-210450.md",
+    "错题本/20260705-210501.md",
+    "模板/20260705-210221.md",
+    "模版.md",
+    "欢迎.md"
+  ]
+}
