@@ -3,6 +3,10 @@
 Thumbs.db
 desktop.ini
 
+# Obsidian 会话状态（本地文件，不纳入版本管理）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
 # 个人数据目录：保留文件夹本身（.gitkeep），忽略里面的内容
 错题本/**
 !错题本/.gitkeep
