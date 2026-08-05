@@ -1,0 +1,10 @@
+{
+  "attachmentFolderPath": "/错题原图",
+  "newLinkFormat": "absolute",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

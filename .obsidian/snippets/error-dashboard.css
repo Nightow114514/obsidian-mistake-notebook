@@ -1,0 +1,19 @@
+/* 错题仪表盘配套样式 */
+.markdown-preview-view.error-dashboard h1 {
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.markdown-preview-view.error-dashboard h2 {
+  margin-top: 1.1em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-preview-view.error-dashboard h3 {
+  color: var(--text-accent);
+}
+
+.markdown-preview-view.error-dashboard th {
+  background-color: var(--background-secondary);
+}

@@ -1,0 +1,29 @@
+{
+    "quickadd:choice:7957058d-6ddb-453e-b95d-90ed24c4a44a":  [
+                                                                 {
+                                                                     "modifiers":  [
+                                                                                       "Mod",
+                                                                                       "Shift"
+                                                                                   ],
+                                                                     "key":  "E"
+                                                                 }
+                                                             ],
+    "templater-obsidian:replace-in-file-templater":  [
+                                                         {
+                                                             "modifiers":  [
+                                                                               "Mod",
+                                                                               "Shift"
+                                                                           ],
+                                                             "key":  "R"
+                                                         }
+                                                     ],
+    "quickadd:choice:18edd47c-f8a4-4ff0-a7c5-b100e1875d54":  [
+                                                                 {
+                                                                     "modifiers":  [
+                                                                                       "Mod",
+                                                                                       "Shift"
+                                                                                   ],
+                                                                     "key":  "M"
+                                                                 }
+                                                             ]
+}
