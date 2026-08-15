@@ -171,8 +171,9 @@ if (fs.existsSync(wordPath)) {
   }
 }
 const wordData = {
-  "knowledge-point": sortZh([...(existingWords["knowledge-point"] || []), ...allKp]),
-  "error-reason": sortZh([...(existingWords["error-reason"] || []), ...allReason])
+  // 合并现有词表 + 笔记词；被别名映射合并掉的旧词从词表剔除，防止再次被选用
+  "knowledge-point": sortZh([...(existingWords["knowledge-point"] || []), ...allKp]).filter((w) => !(kpAlias[w])),
+  "error-reason": sortZh([...(existingWords["error-reason"] || []), ...allReason]).filter((w) => !(reasonAlias[w]))
 };
 const newWordJson = JSON.stringify(wordData, null, 2) + "\n";
 if (!dryRun) {
