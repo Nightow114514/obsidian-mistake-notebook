@@ -23,18 +23,24 @@
 }
 
 /* ---- 随机组卷：答案显隐与打印 ----
-   屏幕默认隐藏答案；点「显示全部答案」时容器加 .paper-answers-visible 类展开；
+   屏幕默认隐藏答案；每题可单独展开/收起（.paper-answer-show / .paper-answer-hide）；
    导出 PDF（@media print）强制显示全部答案，并隐藏交互按钮 */
 .paper-answer {
   display: none;
 }
 
-.paper-answers-visible .paper-answer {
-  display: block;
+.paper-answer-show {
+  display: block !important;
+}
+
+.paper-answer-hide {
+  display: none !important;
 }
 
 @media print {
-  .paper-answer {
+  .paper-answer,
+  .paper-answer-show,
+  .paper-answer-hide {
     display: block !important;
   }
   .paper-buttons {
