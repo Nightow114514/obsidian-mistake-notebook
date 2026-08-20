@@ -84,6 +84,8 @@ kp-filter: ""                     # 空 = 不限考点；填"函数"则只抽含
 reason-filter: ""                 # 空 = 不限错因；填"概念不清"则只抽该错因的题
 due-only: true                    # true = 只练到期题（不足不凑数）；false = 到期优先，未到期题补满（加练）
 skip-recent-days: 2               # 几天内抽过的不再抽（仅作用于未到期题）；0 = 不限
+recent-days: 0                    # 只抽最近 N 天录入的题；0 = 不限（如 3 = 只练最近 3 天新增）
+new-first: false                  # true = 新题优先：按录入时间从新到旧抽（配合 due-only: false 可刷昨天新增的题）
 count: 5                          # 每次抽几道
 show-answer: false                # false = 答案屏幕隐藏防剧透（导出 PDF 自动含答案）；true = 直接显示
 ```
@@ -96,6 +98,8 @@ show-answer: false                # false = 答案屏幕隐藏防剧透（导出
    | `reason-filter` | 任意错因名 | `""` = 不限 |
    | `due-only` | `true` / `false` | `true`=只练到期题，不足 `count` 也不拿未到期题凑数（默认）；`false`=到期题优先，未到期题补满（加练） |
    | `skip-recent-days` | 数字 | 几天内抽过的不再抽（默认 `2`，`0` = 不限）；**仅作用于未到期题**——已到期题永远优先出现、不受防重复限制 |
+   | `recent-days` | 数字 | 只抽最近 N 天录入的题（`0` = 不限，默认） |
+   | `new-first` | `true` / `false` | `false`=到期优先轮换（默认）；`true`=按录入时间从新到旧优先（新题先抽满、老题补位） |
    | `count` | 数字 | 抽题数量 |
    | `show-answer` | `true` / `false` | `false`=屏幕隐藏防剧透（默认，导出 PDF 自动含答案）/ `true`=直接显示 |
 
